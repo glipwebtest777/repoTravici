@@ -1,8 +1,4 @@
-language: ruby
 notifications:
   webhooks:
     urls:
       - https://hooks.glipdemo.com/webhook/3cca150a-f848-4dbd-b110-ef77f0ce6057
-    on_success: always # default: always
-    on_failure: always # default: always
-    on_start: always   # default: never
