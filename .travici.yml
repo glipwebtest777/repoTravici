@@ -1,3 +1,4 @@
+language: ruby
 notifications:
   webhooks:
     urls:
