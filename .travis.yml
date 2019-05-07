@@ -1,7 +1,7 @@
 notifications:
   webhooks:
     urls:
-      - https://hooks.glipdemo.com/webhook/a0cbdb70-4146-477c-af2a-a9046722ee06
+      - https://hooks.glipdemo.com/webhook/09b0fd3a-cba8-4488-9b25-fd78041d465d
     on_success: always # default: always
     on_failure: always # default: always
     on_start: always   # default: never
