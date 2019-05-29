@@ -4,4 +4,4 @@ notifications:
       - https://hooks.glipdemo.com/webhook/2eb53c87-f6c0-41eb-a7f3-3fb84787de40
     on_success: always # default: always
     on_failure: always # default: always
-    on_start: always   # default: never
+    on_start: always   # default: never 
