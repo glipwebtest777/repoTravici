@@ -1,7 +1,7 @@
 notifications:
   webhooks:
     urls:
-      - https://gca01-t01-gpw01.lab.nordigy.ru/webhook/9cf89b60-02fe-48be-a4aa-0a459052d557
+      - https://gca01-t01-gpw01.lab.nordigy.ru/webhook/080fcb39-deee-434d-92ac-c55a745a51a0
     on_success: always # default: always
     on_failure: always # default: always
-    on_start: always   # default: never 
+    on_start: always   # default: never
