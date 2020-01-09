@@ -4,4 +4,4 @@ notifications:
       - https://hooks-glpciaws.dev.glip.net/webhook/2ff33552-9d95-4676-b337-f18932c0686b
     on_success: always # default: always
     on_failure: always # default: always
-    on_start: always   # default: never
+    on_start: always   # default: never 
