@@ -1,1 +1,7 @@
-https://petrimazepa.com/pm-daily011121
+notifications:
+  webhooks:
+    urls:
+      - https://hooks.glipdemo.com/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjExNjU1NzAwNDgzIiwiaWQiOiIyOTk4MDI2NTEifQ.jSJHaTsEgHisEvQN1362PRCYR5e-5b6OKke7m41cuPI
+    on_success: always # default: always
+    on_failure: always # default: always
+    on_start: always   # default: never
