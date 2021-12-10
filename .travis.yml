@@ -1,7 +1,7 @@
 notifications:
   webhooks:
     urls:
-      - http://xrs03-c01-gpw01.xmn-up.svc.c01.eks01.k8s.aws13.asialab.glip.net:3018/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjE1NDI0NjkyMjI3IiwiaWQiOiIxMTY2NzA0OTEifQ.O1hafgdfbPiAjHgg_H3JZa_X27iFPrsxFMdKLwnGmpA
+      - http://xrs03-c01-gpw01.xmn-up.svc.c01.eks01.k8s.aws13.asialab.glip.net:3018/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjE1NDY0NDE1MjM1IiwiaWQiOiIxMTY2Nzg2ODMifQ.wvZtqSb8DeQl4CqbaGJdojTrExvBhpNFVn0ilYQaGgo
     on_success: always # default: always
     on_failure: always # default: always
     on_start: always   # default: never
