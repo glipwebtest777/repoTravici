@@ -1,7 +1,1 @@
-notifications:
-  webhooks:
-    urls:
-      - https://hooks-xmnup.asialab.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjE1NDI0MzU2MzU1IiwiaWQiOiIxMTY3OTMzNzEifQ.461jUqLRJLG8W74Tx_RDha2GXbMMHCRBICb_lpqE4y0
-    on_success: always # default: always
-    on_failure: always # default: always
-    on_start: always   # default: never
+771245
