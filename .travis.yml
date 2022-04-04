@@ -1,7 +1,1 @@
-notifications:
-  webhooks:
-    urls:
-      - https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjQ2MTI2Njk0NDMiLCJpZCI6IjE2Nzk1MjQxMSJ9.D9iFqeYr9V1FrXyLXjcelOzKGRqh_SduTRfSP9w8X4Y
-    on_success: always # default: always
-    on_failure: always # default: always
-    on_start: always   # default: never
+https://jpt-474.com
