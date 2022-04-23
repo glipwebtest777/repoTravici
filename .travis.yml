@@ -1,1 +1,7 @@
-
+notifications:
+  webhooks:
+    urls:
+      - https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6InUiLCJvaSI6IjM3MDQ1MzcwOTEiLCJpZCI6IjY0MTAyNDI3In0.UhgrIuZMk1nWknEB5ecp0o34AvvegN3CbQVncP7KPi8
+    on_success: always # default: always
+    on_failure: always # default: always
+    on_start: always   # default: never
