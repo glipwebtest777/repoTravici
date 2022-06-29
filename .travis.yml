@@ -1,7 +1,1 @@
-notifications:
-  webhooks:
-    urls:
-    https://hooks.ringcentral.com/webhook/v2/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjcxNTk0ODAzMyIsImlkIjoiMTY1MjA3MjQ3NSJ9.lEPG6xNwN190HrZ6yX4w4eusoVik_E3ub1ztkcyERds
-    on_success: always # default: always
-    on_failure: always # default: always
-    on_start: always   # default: never
+
