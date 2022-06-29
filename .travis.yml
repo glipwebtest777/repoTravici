@@ -1,7 +1,7 @@
 notifications:
   webhooks:
     urls:
-    https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjE0MzY1NzM2OTciLCJpZCI6IjE0ODQ5NjQxMSJ9.z0QnPoSwRFmUsYyoXYtdMIzdKem6kNMDvsPBIF-0Ufk
+    -https://hooks.ringcentral.com/webhook/v2/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjcxNTk0ODAzMyIsImlkIjoiMTY1MjgwMTU2MyJ9.BxnO0r0x5vZMwR46U2llFkWSj0hdFCXRAfVOijGjfos
     on_success: change # default: always
     on_failure: always # default: always
     on_start: change   # default: never
