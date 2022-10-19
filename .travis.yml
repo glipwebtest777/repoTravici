@@ -1,7 +1,20 @@
-notifications:
-  webhooks:
-    urls:
-      - https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjI0MzM4NzU5NjkiLCJpZCI6IjI5MDQzMTAwMyJ9.311rQiwKBVehYCCcIz9SKWbFZhrlmeCxr_fjWbTDKac
-    on_success: always # default: always
-    on_failure: always # default: always
-    on_start: always   # default: never
+{
+    "activity": "Event triggered",
+        "title": "[Event $ID]($LINK): $EVENT_TITLE",
+            "fields": [
+                    {
+                                "title": "Priority",
+                                            "value": "$PRIORITY"
+                                                    },
+                                                            {
+                                                                        "title": "Alert",
+                                                                                    "value": "$ALERT_STATUS"
+                                                                                            },
+                                                                                                    {
+                                                                                                                "title": "Date",
+                                                                                                                            "value": "$DATE",
+                                                                                                                                        "type": "epochmillisecond"
+                                                                                                                                                }
+                                                                                                                                                      ],
+                                                                                                                                                          "body": "[Metric Image]($SNAPSHOT) *Tags*: $TAGS"
+                                                                                                                                                          }
