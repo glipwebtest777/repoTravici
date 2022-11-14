@@ -1,20 +1,12 @@
-{
-    "activity": "Event triggered",
-        "title": "[Event $ID]($LINK): $EVENT_TITLE",
-            "fields": [
-                    {
-                                "title": "Priority",
-                                            "value": "$PRIORITY"
-                                                    },
-                                                            {
-                                                                        "title": "Alert",
-                                                                                    "value": "$ALERT_STATUS"
-                                                                                            },
-                                                                                                    {
-                                                                                                                "title": "Date",
-                                                                                                                            "value": "$DATE",
-                                                                                                                                        "type": "epochmillisecond"
-                                                                                                                                                }
-                                                                                                                                                      ],
-                                                                                                                                                          "body": "[Metric Image]($SNAPSHOT) *Tags*: $TAGS"
-                                                                                                                                                          }
+version: 2.1
+orbs:
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+workflows:
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
+notify:
+  webhooks:
+    - url: https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjQ2OTQwMTYxIiwiaWQiOiIzMTEwNTA1MSJ9.0QW1Z3RA9ptnyD3rGFd2XGXfEp73OfvTse7JyD_hnFk
