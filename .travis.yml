@@ -1,13 +1,7 @@
 notifications:
   webhooks:
     urls:
-      - WEBHOOK_URL raw_url
-    on_success: change # default: always
-    on_failure: always # default: always
-    on_start: change   # default: nevernotifications:
-  webhooks:
-    urls:
-      - WEBHOOK_URL raw_url
+      - https://hooks.glipdemo.com/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6Ijc5ODcyMDEiLCJpZCI6IjQ0NzY5MzA3In0.pxSUL4oYAXxCsqfFFS4HoRlB-7m6v1a1NkUSvk3waMQ
     on_success: change # default: always
     on_failure: always # default: always
     on_start: change   # default: never
