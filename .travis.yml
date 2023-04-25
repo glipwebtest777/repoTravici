@@ -1,3 +1,11 @@
+###################
+os: linux
+dist: focal
+language: shell
+install: skip
+script: true
+###################
+
 notifications:
   webhooks:
     urls:
