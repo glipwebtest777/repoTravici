@@ -1,7 +1,7 @@
 notifications:
   webhooks:
     urls:
-      - https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjMzODQyNjI2NTciLCJpZCI6IjMzOTM1MzYyNyJ9.fLYJzgNnG1qD72215lO8E9cmJijpCAlIIXhiXF8pKck
+      - https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6IjMwODc4Njc5MDUiLCJpZCI6IjM0MTI3ODc0NyJ9.kOFgC675AHqMdYXptueGAS0BWocy8hgEw6dzWPq6Zec
     on_success: always # default: always
     on_failure: always # default: always
     on_start: always   # default: never
